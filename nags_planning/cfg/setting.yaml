@@ -1,0 +1,52 @@
+# Simulation switch
+if_in_simulation: true
+
+# Parameters for initial goal position
+goal_position_x: 50.0
+goal_position_y: 0.0
+goal_position_z: 1.0
+
+# Parameters for path planning
+if_plan_vertical_path: true
+if_flyback_enable: false
+MAX_V_XY: 1.5
+MAX_V_Z_UP: 1.0
+MAX_V_Z_DOWN: 1.0
+MAX_A: 2
+
+#HEIGHT_LIMIT: 1.8  #for a virtual fence
+#XY_LIMIT: 15 #for a virtual fence
+
+distance_reference_length: 2.0
+toward_goal_k1_xy: 4.0
+toward_goal_k1_z: 4.0
+less_variation_k2_xy: 2.0
+less_variation_k2_z: 2.0
+observation_direction_k3_xy: 0.5
+observation_direction_k3_z: 0.5
+v_max_at_goal_ori: 0.5
+
+collision_threshold_static: 0.6
+
+PLAN_INIT_STATE_CHANGE_THRESHOLD: 0.15
+
+
+#Parameters for head rotation planning
+k_current_v: 1.0
+k_planned_direction: 0.4
+k_v_fluctuation: 0.6
+k_dynamic_objects: 1.0
+k_common_update: 0.15
+
+#Parameters for the servo motor
+head_max_yaw_delt: 0.5
+motor_velocity_set: 50
+
+#Other parameters
+if_publish_panel_arrays: true
+CAMERA_H_FOV: 62.0
+
+TABLE_PATH: /home/ubuntu/chg_workspace/rolling_head_ws_publication_ws/src/hybrid_local_map/nags_planning/others/p3-2_v1-5_a2_res0-1.csv
+
+
+

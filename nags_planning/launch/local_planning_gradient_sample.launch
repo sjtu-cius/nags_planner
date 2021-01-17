@@ -1,0 +1,8 @@
+<launch>
+	<node pkg="nags_planning" name="local_planning_gradient_sample" type="local_planning_gradient_sample" output="screen">
+		<rosparam 
+	        file="$(find nags_planning)/cfg/setting.yaml"
+	        command="load" 
+		/> 
+	</node>
+</launch>
