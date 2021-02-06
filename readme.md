@@ -90,7 +90,7 @@ See:
 # Citation
 
 ```
-@inproceedings{ActiveSensing,
+@inproceedings{NagsPlanner2021,
 title={Efficient Local Trajectory Planning for High Speed Flight of a Quadrotor with Active Sensing},
 author={Chen, Gang and Sun, Dongxiao and Dong, Wei and Sheng, Xinjun and Zhu, Xiangyang and Ding, Han},
 booktitle={Under revision},
@@ -98,7 +98,7 @@ year={2021}}
 ```
 
 ```
-@inproceedings{ActiveSensing,
+@inproceedings{ActiveSensing2020,
 title={Bio-inspired Obstacle Avoidance for Flying Robots with Active Sensing},
 author={Chen, Gang and Dong, Wei and Sheng, Xinjun and Zhu, Xiangyang and Ding, Han},
 booktitle={arXiv preprint arXiv:2010.04977},
